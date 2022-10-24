@@ -94,4 +94,5 @@ class Solution:
             min_index_for_chunk_end = max(min_index_for_chunk_end, arr[i])
             if min_index_for_chunk_end == i:
                 chunks += 1
+                
         return chunks
